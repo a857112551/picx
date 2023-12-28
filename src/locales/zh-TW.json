@@ -23,6 +23,7 @@
     "usage_count": "使用次數"
   },
   "nav": {
+    "login": "登錄",
     "config": "圖床配置",
     "upload": "上傳圖片",
     "management": "圖床管理",
@@ -113,6 +114,14 @@
       "system": "跟隨系統",
       "dark": "暗夜",
       "light": "白晝"
+    },
+    "cloud_settings": {
+      "tip_1": "偵測到你的設定資料未儲存到雲端倉庫，是否儲存？",
+      "tip_2": "偵測到你的雲端倉庫有設定文件，是否使用？",
+      "tip_3": "偵測到你的設定資料有變化，是否同步到雲端倉庫？",
+      "tip_4": "本地設定資料與雲端倉庫設定資料一致",
+      "success_msg_1": "儲存成功",
+      "success_msg_2": "更新成功"
     }
   },
   "config": {
@@ -248,5 +257,25 @@
     "zh-TW": "中文繁體",
     "en": "英文"
   },
-  "toggle_language_msg": "檢測到你的 IP 所屬地為{region}，是否切換{language}？"
+  "toggle_language_msg": "檢測到你的 IP 所屬地為{region}，是否切換{language}？",
+  "authorization": {
+    "msg_1": "GitHub OAuth 授權登入已過期，請重新授權",
+    "msg_2": "未在 GitHub 安裝 PicX APP，暫無操作權限",
+    "msg_3": "PicX GitHub APP 安裝成功，是否進行授權登入？",
+    "msg_4": "授權失敗，稍後重試",
+    "btn_1": "立即安裝",
+    "loading_1": "正在授權登入...",
+    "text_1": "GitHub OAuth 授權登入",
+    "text_2": "填入 GitHub Token 登入",
+    "text_3": "正在使用 GitHub OAuth 授權登入",
+    "text_4": "GitHub Token 已過期，請重新授權登入",
+    "text_5": "正在使用填入 GitHub Token 登入",
+    "text_6": "返回登入頁面",
+    "text_7": "切換",
+    "text_8": "使用 GitHub OAuth 授權登入必須安裝 PicX GitHub APP",
+    "text_9": "填寫 GitHub Token 登入必須產生具有操作權限的 Token",
+    "text_10": "檢視教學",
+    "text_11": "安裝 PicX GitHub APP",
+    "text_12": "建立 GitHub Token"
+  }
 }
